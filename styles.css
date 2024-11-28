@@ -13,6 +13,11 @@ header {
     background-color: rgb(218, 216, 216)#f8f8f8;
 }
 
+main {
+    flex: 1 0 auto;
+    padding: 70px;
+}
+
 .cabecalho_esquerda {
     display: flex;
     align-items: center;
