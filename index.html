@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho_esquerda">
+            <span class="dot"></span>
+            <span class="name" onclick="showSection('home')">Hugo Borrego</span>
+            <span class="title">Analista e Desenvolvedor</span>
+        </div>
+        <nav>
+            <a href="#" onclick="showSection('curriculo')">Currículo</a>
+            <a href="#" onclick="showSection('projetos')">Projetos</a>
+            <a href="#" onclick="showSection('contato')">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="perfil">
+                <div class="foto_de_perfil">
+                    <img src="Fotos/imagemportifolio.png">
+                </div>
+                <div class="intro">
+                    <h1>Olá!</h1>
+                    <p1>Meu nome é Hugo, estudo Análise e Desenvolvimento de Sistemas na FATEC.</p1>
+                    <p>Tenho interesse em desenvolvimento de software e tecnologias emergentes.</p>
+                    <p>Possuo facilidade em comunicação e aprendizagem. Tenho conhecimento em diversas linguagens de
+                        programação.</p>
+                    <p>Tenho disposição e vontade para aprender e trabalhar.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="showSection('curriculo')">Currículo</button>
+                <button onclick="showSection('projetos')">Projetos</button>
+                <button onclick="showSection('contato')">Contato</button>
+            </div>
+        </section>
+        <section id="curriculo" class="hidden">
+            <h2>Currículo</h2>
+            <div class="content-wrapper">
+                <div class="left-column">
+                    <div class="educacao">
+                        <h4>Educação</h4>
+                        <h5>Fatec Taubaté | Tecnologo 2024 - 2026</h5>
+                        <p>Cursando Análise e Desenvolvimento de Sistemas</p>
+                        <p>Competências: C e C#</p>
+                    </div>
+                    <div class="cursos-complementares">
+                        <h4>Cursos Complementares</h4>
+                        <ul>
+                            <li>Certificado de .NET C# pela DIO (105hrs) Competências: C# .NET, C# POO, API .NET, SQL
+                                SERVER e Azure</li>
+                            <li>Programação Web pelo IFRS Moodle (200hrs) Competências: HTML, CSS e JavaScript</li>
+                            <li>Python pela FIAP (80hrs)</li>
+                            <li>Java pela Fiap (60hrs)</li>
+                            <li>Administrador de Banco de Dados pelo IFRS Moodle (200hrs) Competências: SQL, MySQL e
+                                PostgreSQL</li>
+                            <li>PowerBI pela Enap (25hrs)</li>
+                            <li>Cloud Fundamentos pela FIAP (80hrs) Competências: AWS, Azure e GCP</li>
+                            <li>Business Inteligence pela FIAP (40hrs)</li>
+                            <li>User Experience UX pela FIAP (60hrs)</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <section id="projetos" class="hidden">
+            <div class="projetos">
+                <h2>Projetos</h2>
+                <h4>Site de Investimentos</h4>
+                <p>Fiz um site de investimentos completamente do zero utilizando meus conhecimentos em HTML, CSS e
+                    JavaScript</p>
+                <a href="https://hugoborrego.github.io/Site-de-Investimentos/" target="_blank"><img
+                        src="Fotos/riquezaonline.png" alt="RiquezaOnline"></a>
+            </div>
+        </section>
+        <section id="contato" class="hidden">
+            <h2>Contato</h2>
+            <div class="interface">
+                <h3>Entre em contato</h3>
+                <form action="https://api.staticforms.xyz/submit" method ="post" class="card">
+                    <input type="hidden" name="accessKey" value="a0b7f734-e5ca-4051-bd0e-0a1b69e905de">
+                    <input type="text" name="name" id="" placeholder="Nome completo:" required>
+                    <input type="text" name="email" id="" placeholder="E-mail:" required>
+                    <input type="text" name="subject" id="" placeholder="Assunto:" required>
+                    <textarea name="message" id="" placeholder="Mensagem" required></textarea>
+                    <div class="enviar"><input type="submit" value="ENVIAR"></div>
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <!-- <p><span>Telefone:</span> (11) 3456-7890</p> -->
+            <p><span>Email:</span> hugoborrego02@gmail.com</p>
+        </div>
+        <div class="social-media">
+            <p><span>Me siga:</span></p>
+            <p>LinkedIn</p>
+            <a href="https://www.linkedin.com/in/hugoaborrego/" target="_blank"><img src="Fotos/linkedin.png"
+                    alt="LinkedIn"></a>
+        </div>
+        <div class="policies">
+            <a href="#">Política de Cookies</a>
+            <a href="#">Política de Privacidade</a>
+        </div>
+        <p>&copy; 2024 Por Hugo Borrego</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

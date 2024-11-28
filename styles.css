@@ -1,0 +1,354 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(218, 216, 216)#f8f8f8;
+}
+
+.cabecalho_esquerda {
+    display: flex;
+    align-items: center;
+}
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(111, 0, 255);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.perfil .foto_de_perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+.perfil .foto_de_perfil img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.intro p {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.intro p1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttons {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button:nth-child(1) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons button:nth-child(2) {
+    background-color: #2196F3;
+    color: white;
+}
+
+.buttons button:nth-child(3) {
+    background-color: #f44336;
+    color: white;
+}
+
+section.hidden {
+    display: block;
+}
+
+#curriculo {
+    padding: 20px;
+}
+
+#curriculo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+    width: 48%;
+}
+
+.left-column {
+    text-align: left;
+}
+
+.right-column {
+    text-align: right;
+}
+
+.educacao,
+.cursos-complementares {
+    margin-bottom: 20px;
+}
+
+.educacao h4,
+.cursos-complementares h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.educacao h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.educacao p1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.educacao p,
+.cursos-complementares ul {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cursos-complementares ul {
+    list-style-type: disc;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.cursos-complementares ul li {
+    font-size: 14px;
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.projetos h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.projetos p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.projetos img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+section.contatos {
+    padding: 80px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #888888;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form .enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .enviar input {
+    width: 120px;
+    background-color: #888888;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(218, 216, 216);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-info,
+.social-media,
+.policies {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: center;
+    flex: 1;
+}
+
+.contact-info p,
+.social-media p,
+.policies a {
+    margin: 5px 0;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.contact-info p span {
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-size: 14px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.social-media p span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.policies {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.policies a {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 14px;
+}
