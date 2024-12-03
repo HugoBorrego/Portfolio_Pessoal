@@ -10,7 +10,14 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    border-bottom: 2px solid #ccc;
     background-color: rgb(218, 216, 216)#f8f8f8;
+}
+
+main { 
+    padding: 35px; 
+    margin-top: 10px; 
+    margin-bottom: 40px; 
 }
 
 .cabecalho_esquerda {
@@ -351,4 +358,8 @@ footer {
 
 footer p {
     font-size: 14px;
+}
+
+footer {
+    border-top: 2px solid #ccc;
 }
