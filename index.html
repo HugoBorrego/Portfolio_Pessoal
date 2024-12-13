@@ -8,26 +8,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <header>
-        <div class="cabecalho_esquerda">
+<body> <!-- Corpo da Página -->
+    
+    <header> <!-- Cabeçalho da Página -->
+        <!-- Lado Esquerdo (Nome, Profissão) -->
+        <div class="menu">
             <span class="dot"></span>
             <span class="name" onclick="showSection('home')">Hugo Borrego</span>
             <span class="title">Analista e Desenvolvedor</span>
         </div>
+        <!-- Lado Direito (Menu desktop) -->
         <nav>
             <a href="#" onclick="showSection('curriculo')">Currículo</a>
             <a href="#" onclick="showSection('projetos')">Projetos</a>
             <a href="#" onclick="showSection('contato')">Contato</a>
         </nav>
     </header>
-    <main>
-        <section id="home">
-            <div class="perfil">
-                <div class="foto_de_perfil">
+    
+    <main> <!-- Corpo principal da Página -->
+
+        <section id="home"> <!-- Seção de apresentação -->
+
+            <div class="perfil"> <!-- Perfil do criador -->
+                <div class="foto_de_perfil"> <!-- Foto principal -->
                     <img src="Fotos/imagemportifolio.png">
                 </div>
-                <div class="intro">
+                <div class="intro"> <!-- Introdução/Sobre -->
                     <h1>Olá!</h1>
                     <p1>Meu nome é Hugo, estudo Análise e Desenvolvimento de Sistemas na FATEC.</p1>
                     <p>Tenho interesse em desenvolvimento de software e tecnologias emergentes.</p>
@@ -36,13 +42,14 @@
                     <p>Tenho disposição e vontade para aprender e trabalhar.</p>
                 </div>
             </div>
-            <div class="buttons">
+            <div class="buttons"> <!-- Botões Interativos -->
                 <button onclick="showSection('curriculo')">Currículo</button>
                 <button onclick="showSection('projetos')">Projetos</button>
                 <button onclick="showSection('contato')">Contato</button>
             </div>
         </section>
-        <section id="curriculo" class="hidden">
+
+        <section id="curriculo" class="hidden"> <!-- Botão Currículo -->
             <h2>Currículo</h2>
             <div class="content-wrapper">
                 <div class="left-column">
@@ -70,7 +77,8 @@
                     </div>
                 </div>
         </section>
-        <section id="projetos" class="hidden">
+
+        <section id="projetos" class="hidden"> <!-- Botão Projetos -->
             <div class="projetos">
                 <h2>Projetos</h2>
                 <h4>Site de Investimentos</h4>
@@ -86,7 +94,8 @@
                 <p>Fiz um jogo em java que tem uma nave no espaço que atira e tem que desviar das naves inimigas</p>
                 <a href="https://github.com/HugoBorrego/Jogo_em_Java" target="_blank"><img src="Fotos/jogo2D.png"></a>
         </section>
-        <section id="contato" class="hidden">
+
+        <section id="contato" class="hidden"> <!-- Botão Contato -->
             <h2>Contato</h2>
             <div class="interface">
                 <h3>Entre em contato</h3>
@@ -102,23 +111,26 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="contact-info">
+
+    <footer> <!-- Rodapé da Página -->
+
+        <div class="contact-info"> <!-- Contatos Fornecidos -->
             <!-- <p><span>Telefone:</span> (11) 3456-7890</p> -->
             <p><span>Email:</span> hugoborrego02@gmail.com</p>
         </div>
-        <div class="social-media">
+        <div class="social-media"> <!-- Midia Social -->
             <p><span>Me siga:</span></p>
             <p>LinkedIn</p>
             <a href="https://www.linkedin.com/in/hugoaborrego/" target="_blank"><img src="Fotos/linkedin.png"
                     alt="LinkedIn"></a>
         </div>
-        <div class="policies">
+        <div class="policies"> <!-- Políticas -->
             <a href="#">Política de Cookies</a>
             <a href="#">Política de Privacidade</a>
         </div>
-        <p>&copy; 2024 Por Hugo Borrego</p>
+        <p>&copy; 2024 Por Hugo Borrego</p> <!-- Criador -->
     </footer>
+
     <script src="script.js"></script>
 </body>
 
