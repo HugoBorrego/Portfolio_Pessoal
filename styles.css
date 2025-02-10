@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    overflow-x: hidden;
     background-color: rgb(218, 216, 216);
 }
 
@@ -11,9 +12,10 @@ header {
     /* Estilo do Cabeçalho da Página */
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     border-bottom: 2px solid #ccc;
-    background-color: rgb(218, 216, 216);
+    background-color: rgb(55, 56, 55);
+    color: white;
 }
 
 main {
@@ -44,7 +46,7 @@ nav a {
     /* Estilo do Menu */
     margin: 0 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -72,6 +74,10 @@ nav a {
     width: 100%;
     height: auto;
     border-radius: 50%;
+}
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .intro p {
