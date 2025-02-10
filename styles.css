@@ -1,4 +1,5 @@
-body { /* Estilo do Corpo da Página */
+body {
+    /* Estilo do Corpo da Página */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@ body { /* Estilo do Corpo da Página */
     background-color: rgb(218, 216, 216);
 }
 
-header { /* Estilo do Cabeçalho da Página */
+header {
+    /* Estilo do Cabeçalho da Página */
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -14,13 +16,15 @@ header { /* Estilo do Cabeçalho da Página */
     background-color: rgb(218, 216, 216);
 }
 
-main { /* Estilo do Corpo Principal da Página */
-    padding: 35px; 
-    margin-top: 10px; 
-    margin-bottom: 40px; 
+main {
+    /* Estilo do Corpo Principal da Página */
+    padding: 35px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
-.dot { /* Estilo do Ponto ao Lado do Nome e Profissão */
+.dot {
+    /* Estilo do Ponto ao Lado do Nome e Profissão */
     height: 15px;
     width: 15px;
     background-color: rgb(111, 0, 255);
@@ -29,20 +33,23 @@ main { /* Estilo do Corpo Principal da Página */
     margin-right: 10px;
 }
 
-.name { /* Estilo do Nome */
+.name {
+    /* Estilo do Nome */
     font-weight: bold;
     font-size: 22px;
     margin-right: 5px;
 }
 
-nav a { /* Estilo do Menu */
+nav a {
+    /* Estilo do Menu */
     margin: 0 10px;
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.perfil { /* Estilo do Perfil */
+.perfil {
+    /* Estilo do Perfil */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +57,8 @@ nav a { /* Estilo do Menu */
     flex-wrap: wrap;
 }
 
-.perfil .foto_de_perfil { /* Estilo da Foto de Perfil */
+.perfil .foto_de_perfil {
+    /* Estilo da Foto de Perfil */
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -59,32 +67,38 @@ nav a { /* Estilo do Menu */
     margin-top: 70px;
 }
 
-.perfil .foto_de_perfil img { /* Estilo do Formato da Imagem */
+.perfil .foto_de_perfil img {
+    /* Estilo do Formato da Imagem */
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
 
-.intro p { /* Estilo da Introdução/Sobre parágrafo normal */
+.intro p {
+    /* Estilo da Introdução/Sobre parágrafo normal */
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
     padding: 2px;
 }
 
-.intro p1 { /* Estilo da Introdução/Sobre parágrafo Principal */
+.intro p1 {
+    /* Estilo da Introdução/Sobre parágrafo Principal */
     font-weight: bold;
     font-size: 18px;
 }
 
-.buttons { /* Estilo dos Botões Interativos */
+.buttons {
+    /* Estilo dos Botões Interativos */
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
+    margin-left: 10%;
 }
 
-.buttons button { /* Estilo do Formato dos Botões Interativos */
+.buttons button {
+    /* Estilo do Formato dos Botões Interativos */
     width: 80px;
     height: 80px;
     margin: 10px;
@@ -97,52 +111,129 @@ nav a { /* Estilo do Menu */
     justify-content: center;
 }
 
-.buttons button:nth-child(1) { /* Estilo do Botão Currículo */
+.buttons button:nth-child(1) {
+    /* Estilo do Botão Currículo */
     background-color: #4CAF50;
     color: white;
 }
 
-.buttons button:nth-child(2) { /* Estilo do Botão Projetos */
+.buttons button:nth-child(2) {
+    /* Estilo do Botão Projetos */
     background-color: #2196F3;
     color: white;
 }
 
-.buttons button:nth-child(3) { /* Estilo do Botão Contato */
+.buttons button:nth-child(3) {
+    /* Estilo do Botão Contato */
     background-color: #f44336;
     color: white;
 }
 
-section.hidden { /* Estilo da Seção */
+section.hidden {
+    /* Estilo da Seção */
     display: block;
 }
 
-#curriculo { /* Estilo do Currículo */
+#curriculo {
+    /* Estilo do Currículo */
     padding: 20px;
 }
 
-#curriculo h2 { /* Estilo do Parágrafo Principal do Currículo */
+#curriculo h2 {
+    /* Estilo do Parágrafo Principal do Currículo */
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.content-wrapper { 
+.content-wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.left-column,
-.right-column {
-    width: 48%;
-}
-
 .left-column {
+    width: 48%;
     text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.right-column {
-    text-align: right;
+@keyframes bake-pie {
+    from {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+}
+
+.pieID {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pie {
+    height: 175px;
+    width: 175px;
+    position: relative;
+    margin: 0 15px 15px 0;
+}
+
+.pie::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background: #EEE;
+    border-radius: 50%;
+    top: 25px;
+    left: 25px;
+}
+
+.slice {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    clip: rect(0px, 150px, 150px, 75px);
+    animation: bake-pie 1s;
+}
+
+.slice span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.legend {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: 1px 1px 0 #DDD, 2px 2px 0 #BBB;
+}
+
+.legend li {
+    width: 110px;
+    height: 1.25em;
+    margin-bottom: 0.7em;
+    padding-left: 0.5em;
+    border-left: 1.25em solid black;
+}
+
+.legend em {
+    font-style: normal;
+}
+
+.legend span {
+    float: right;
 }
 
 .educacao,
@@ -198,7 +289,8 @@ section.hidden { /* Estilo da Seção */
     box-sizing: border-box;
 }
 
-.projetos h4{ /* Estilo do Parágrafo com os Nomes dos Projetos */
+.projetos h4 {
+    /* Estilo do Parágrafo com os Nomes dos Projetos */
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
@@ -206,13 +298,15 @@ section.hidden { /* Estilo da Seção */
     padding: 20px;
 }
 
-.projetos p { /* Estilo do Parágrafo com Explicação dos Projetos */
+.projetos p {
+    /* Estilo do Parágrafo com Explicação dos Projetos */
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-.projetos img { /* Estilo do formato das Imagens dos Projetos */
+.projetos img {
+    /* Estilo do formato das Imagens dos Projetos */
     width: 300px;
     height: 300px;
     border-radius: 5%;
@@ -220,11 +314,13 @@ section.hidden { /* Estilo da Seção */
     margin-right: 20px;
 }
 
-section.contatos { /* Estilo da Seção Contatos */
+section.contatos {
+    /* Estilo da Seção Contatos */
     padding: 80px;
 }
 
-form { /* Estilo dos Formulários do Contato */
+form {
+    /* Estilo dos Formulários do Contato */
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -235,7 +331,8 @@ form { /* Estilo dos Formulários do Contato */
 }
 
 form input,
-form textarea { /* Estilo das Áreas Escritas do Contato */
+form textarea {
+    /* Estilo das Áreas Escritas do Contato */
     width: 100%;
     background-color: #888888;
     border: 0;
@@ -245,10 +342,10 @@ form textarea { /* Estilo das Áreas Escritas do Contato */
     color: #000000;
     font-size: 18px;
     font-weight: bold;
-    
+
 }
 
-form textarea { 
+form textarea {
     resize: none;
     max-height: 200px;
     font-weight: bold;
@@ -268,14 +365,14 @@ form .enviar input {
     cursor: pointer;
 }
 
-footer { /* Estilo do Rodapé */
+footer {
+    /* Estilo do Rodapé */
     background-color: rgb(218, 216, 216);
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    position: fixed;
     width: 100%;
     bottom: 0;
     max-width: 100%;
@@ -284,7 +381,7 @@ footer { /* Estilo do Rodapé */
 
 .contact-info,
 .social-media,
-.policies { 
+.policies {
     display: flex;
     flex-direction: column;
     margin: 0 20px;
