@@ -5,7 +5,7 @@ body {
     padding: 0;
     text-align: center;
     overflow-x: hidden;
-    background-color: rgb(218, 216, 216);
+    background-color: #b8bdc9;
 }
 
 header {
@@ -13,8 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    border-bottom: 2px solid #ccc;
-    background-color: rgb(55, 56, 55);
+    background-color: #000000;
     color: white;
 }
 
@@ -119,20 +118,20 @@ nav a {
 
 .buttons button:nth-child(1) {
     /* Estilo do Botão Currículo */
-    background-color: #4CAF50;
-    color: white;
+    background-color: #39b93e;
+    color: black;
 }
 
 .buttons button:nth-child(2) {
     /* Estilo do Botão Projetos */
-    background-color: #2196F3;
-    color: white;
+    background-color: #3d92d8;
+    color: black;
 }
 
 .buttons button:nth-child(3) {
     /* Estilo do Botão Contato */
-    background-color: #f44336;
-    color: white;
+    background-color: #d44237;
+    color: black;
 }
 
 section.hidden {
@@ -153,15 +152,24 @@ section.hidden {
     text-align: center;
 }
 
+.educacao p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.educacao p2 {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
 .content-wrapper {
     display: flex;
     justify-content: space-between;
 }
 
 .left-column {
-    width: 48%;
+    width: 100%;
     text-align: left;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 @keyframes bake-pie {
@@ -189,7 +197,7 @@ section.hidden {
     z-index: 1;
     width: 100px;
     height: 100px;
-    background: #EEE;
+    background: #b8bdc9;
     border-radius: 50%;
     top: 25px;
     left: 25px;
@@ -219,11 +227,11 @@ section.hidden {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background: #FFF;
+    background: #a0a2aa;
     border-radius: 5px;
     padding: 10px;
     font-size: 13px;
-    box-shadow: 1px 1px 0 #DDD, 2px 2px 0 #BBB;
+    box-shadow: 1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 .legend li {
@@ -249,7 +257,7 @@ section.hidden {
 
 .educacao h4,
 .cursos-complementares h4 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -273,7 +281,7 @@ section.hidden {
 
 .educacao p,
 .cursos-complementares ul {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -288,11 +296,12 @@ section.hidden {
 }
 
 .cursos-complementares ul li {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
-    width: 100%;
+    padding: 1px;
     display: block;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .projetos h4 {
@@ -340,7 +349,7 @@ form input,
 form textarea {
     /* Estilo das Áreas Escritas do Contato */
     width: 100%;
-    background-color: #888888;
+    background-color: #5e5e5e;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -365,7 +374,7 @@ form .enviar {
 
 form .enviar input {
     width: 120px;
-    background-color: #888888;
+    background-color: #5e5e5e;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -373,26 +382,40 @@ form .enviar input {
 
 footer {
     /* Estilo do Rodapé */
-    background-color: rgb(218, 216, 216);
+    background-color: #666668;
     padding: 5px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
     bottom: 0;
     max-width: 100%;
     box-sizing: border-box;
+    border-top: 2px solid #000000;
+    bottom: 0; 
+    left: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.contact-info {
+    padding: 10px;
 }
 
 .contact-info,
 .social-media,
 .policies {
     display: flex;
-    flex-direction: column;
-    margin: 0 20px;
+    margin: 0 10px;
     align-items: center;
     flex: 1;
+}
+
+.policies {
+    flex-direction: column;
 }
 
 .contact-info p,
@@ -407,56 +430,29 @@ footer {
     margin: 0 5px;
 }
 
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-    align-items: center;
-}
-
 .contact-info p span {
     font-weight: bold;
-}
-
-.contact-info p {
-    font-size: 14px;
 }
 
 .social-media {
     display: flex;
     flex-direction: row;
-    margin: 0 20px;
-    align-items: center;
 }
 
 .social-media p span {
     font-size: 14px;
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .social-media img {
     width: 40px;
     height: 40px;
-    margin: 0 5px;
-}
-
-.policies {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-    align-items: center;
+    margin: 0;
 }
 
 .policies a {
     margin: 5px 0;
     font-size: 14px;
-}
-
-footer p {
-    font-size: 14px;
-}
-
-footer {
-    border-top: 2px solid #ccc;
+    color: #000;
 }
