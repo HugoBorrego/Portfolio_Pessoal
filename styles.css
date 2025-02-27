@@ -425,9 +425,10 @@ footer p {
 }
 
 .social-media img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     margin: 0 5px;
+    border-radius: 5px;
 }
 
 .contact-info p span {
@@ -443,12 +444,6 @@ footer p {
     font-size: 14px;
     font-weight: bold;
     margin-right: 5px;
-}
-
-.social-media img {
-    width: 40px;
-    height: 40px;
-    margin: 0;
 }
 
 .policies a {
