@@ -349,7 +349,7 @@ form input,
 form textarea {
     /* Estilo das Áreas Escritas do Contato */
     width: 100%;
-    background-color: #5e5e5e;
+    background-color: #666668;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -374,7 +374,7 @@ form .enviar {
 
 form .enviar input {
     width: 120px;
-    background-color: #5e5e5e;
+    background-color: #666668;
     color: #000;
     font-weight: 700;
     cursor: pointer;
