@@ -1,4 +1,10 @@
-body {
+/* 
+    O programa é composto por Corpo, Cabeçalho, Rodapé, Perfil Imagem, Perfil Introdução, Botões, Seção, Curriculo, Projetos, Formulário
+*/
+
+
+/* Corpo */
+body {   
     /* Estilo do Corpo da Página */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,6 +14,16 @@ body {
     background-color: #b8bdc9;
 }
 
+main {
+    /* Estilo do Corpo Principal da Página */
+    padding: 35px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+/* Cabeçalho */
 header {
     /* Estilo do Cabeçalho da Página */
     display: flex;
@@ -15,13 +31,6 @@ header {
     padding: 15px;
     background-color: #000000;
     color: white;
-}
-
-main {
-    /* Estilo do Corpo Principal da Página */
-    padding: 35px;
-    margin-top: 10px;
-    margin-bottom: 40px;
 }
 
 .dot {
@@ -49,6 +58,84 @@ nav a {
     font-weight: bold;
 }
 
+
+
+/* Rodapé */
+footer {
+    /* Estilo do Rodapé */
+    background-color: #666668;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    bottom: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-top: 2px solid #000000;
+    bottom: 0; 
+    left: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.contact-info {
+    padding: 10px;
+}
+
+.contact-info,
+.social-media,
+.policies {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    flex: 1;
+}
+
+.policies {
+    flex-direction: column;
+}
+
+.contact-info p,
+.social-media p,
+.policies a {
+    margin: 5px 0;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.contact-info p span {
+    font-weight: bold;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media p span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.policies a {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+/* Perfil Imagem*/
 .perfil {
     /* Estilo do Perfil */
     display: flex;
@@ -75,6 +162,32 @@ nav a {
     border-radius: 50%;
 }
 
+#moving-image {
+    width: 100%;
+    animation: floatAround 6s infinite alternate ease-in-out;
+}
+
+@keyframes floatAround {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(3px, -3px);
+    }
+    50% {
+        transform: translate(-3px, 3px);
+    }
+    75% {
+        transform: translate(3px, -3px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+
+/* Perfil Introdução */
 .intro {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -93,6 +206,9 @@ nav a {
     font-size: 18px;
 }
 
+
+
+/* Botões */
 .buttons {
     /* Estilo dos Botões Interativos */
     width: 100%;
@@ -134,11 +250,16 @@ nav a {
     color: black;
 }
 
+
+
+/* Estilo da Seção */
 section.hidden {
-    /* Estilo da Seção */
     display: block;
 }
 
+
+
+/* Curriculo */
 #curriculo {
     /* Estilo do Currículo */
     padding: 20px;
@@ -304,6 +425,8 @@ section.hidden {
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+/* Projetos */
 .projetos h4 {
     /* Estilo do Parágrafo com os Nomes dos Projetos */
     font-size: 20px;
@@ -329,6 +452,9 @@ section.hidden {
     margin-right: 20px;
 }
 
+
+
+/* Formulário */
 section.contatos {
     /* Estilo da Seção Contatos */
     padding: 80px;
@@ -378,76 +504,4 @@ form .enviar input {
     color: #000;
     font-weight: 700;
     cursor: pointer;
-}
-
-footer {
-    /* Estilo do Rodapé */
-    background-color: #666668;
-    padding: 5px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-    bottom: 0;
-    max-width: 100%;
-    box-sizing: border-box;
-    border-top: 2px solid #000000;
-    bottom: 0; 
-    left: 0;
-}
-
-footer p {
-    font-size: 14px;
-}
-
-.contact-info {
-    padding: 10px;
-}
-
-.contact-info,
-.social-media,
-.policies {
-    display: flex;
-    margin: 0 10px;
-    align-items: center;
-    flex: 1;
-}
-
-.policies {
-    flex-direction: column;
-}
-
-.contact-info p,
-.social-media p,
-.policies a {
-    margin: 5px 0;
-}
-
-.social-media img {
-    width: 40px;
-    height: 40px;
-    margin: 0 5px;
-    border-radius: 5px;
-}
-
-.contact-info p span {
-    font-weight: bold;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: row;
-}
-
-.social-media p span {
-    font-size: 14px;
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-.policies a {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #000;
 }
