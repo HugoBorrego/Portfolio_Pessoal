@@ -106,8 +106,8 @@ footer p {
 }
 
 .social-media img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin: 0 5px;
     border-radius: 5px;
 }
@@ -119,6 +119,11 @@ footer p {
 .social-media {
     display: flex;
     flex-direction: row;
+}
+
+.social-media a {
+    color: black;
+    font-family:'Times New Roman', Times, serif
 }
 
 .social-media p span {
