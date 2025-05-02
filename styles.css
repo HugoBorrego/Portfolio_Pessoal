@@ -21,6 +21,17 @@ main {
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
 
 
 /* Cabeçalho */
@@ -195,6 +206,10 @@ footer p {
 /* Perfil Introdução */
 .intro {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.intro h1 {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 .intro p {
