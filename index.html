@@ -16,7 +16,7 @@
         <div class="menu">
             <span class="dot"></span>
             <span class="name" onclick="showSection('home')">Hugo Borrego</span>
-            <span class="title">Analista e Desenvolvedor</span>
+            <span class="title">Programador</span>
         </div>
         <!-- Lado Direito (Menu desktop) -->
         <nav>
@@ -28,26 +28,50 @@
     </header>
 
     <main> <!-- Corpo principal da Página -->
-
+        <!-- <div class="carrossel">
+                        <div class="carrossel-track">
+                            <img src="Fotos/java.png" alt="Java">
+                            <img src="Fotos/python.png" alt="Python">
+                            <img src="Fotos/powerbi.png" alt="PowerBI">
+                            <img src="Fotos/javascript.png" alt="JavaScript">
+                            <img src="Fotos/css.png" alt="CSS3">
+                            <img src="Fotos/mysql.png" alt="MySQL">
+                            <img src="Fotos/git.png" alt="Git">
+                            <img src="Fotos/react.png" alt="react">
+                            
+                            <img src="Fotos/java.png" alt="Java">
+                            <img src="Fotos/python.png" alt="Python">
+                            <img src="Fotos/powerbi.png" alt="PowerBI">
+                            <img src="Fotos/javascript.png" alt="JavaScript">
+                            <img src="Fotos/css.png" alt="CSS3">
+                            <img src="Fotos/mysql.png" alt="MySQL">
+                            <img src="Fotos/git.png" alt="Git">
+                            <img src="Fotos/react.png" alt="react">
+                        </div>
+                    </div> -->
         <section id="home"> <!-- Seção de apresentação -->
-
             <div class="perfil"> <!-- Perfil do criador -->
                 <div class="foto_de_perfil"> <!-- Foto principal -->
-                    <img id="moving-image" src="Fotos/foto.png">
+                    <img src="Fotos/foto.png">
                 </div>
-                <div class="intro"> <!-- Introdução/Sobre -->
-                    <h1>Olá! Meu nome é Hugo</h1>
-                    <p1>Eu estudo Análise e Desenvolvimento de Sistemas na FATEC - Taubaté</p1>
-                    <p>Tenho interesse em Desenvolvimento de Software, Ciência de Dados e IA.</p>
-                    <p> Costumo trabalhar com linguagens backend como Java, Python e C#, também gosto de usar Python e PowerBI na área de Dados
-                        além disso, gosto de usar HTML/CSS e JS para a área frontend. Sempre tento focar na melhor experiência para o usuário.  
+                <div class="introducao"> <!-- Introdução/Sobre -->
+                    <h1>Desenvolvedor Full-Stack</h1>
+                    <p>Olá! Me chamo Hugo. Sou desenvolvedor <span class="linguagem">Full-Stack</span> com especialidade
+                        em Java, Python, JavaScript, C#, Node.js, HTML e CSS. Também trabalho com <span
+                            class="linguagem">Análise e Ciência de Dados</span>, utilizo Python e PowerBI.
                     </p>
+                    <div class="contatos">
+                        <a href="https://www.linkedin.com/in/hugoaborrego/" target="_blank"><img
+                                src="Fotos/Linkedin-Logo.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/HugoBorrego" target="_blank"><img src="Fotos/GitHub-Logo.png"
+                                alt="Github"></a>
+                    </div>
+                    <div class="buttons"> <!-- Botões Interativos -->
+                        <button onclick="showSection('curriculo')">Currículo</button>
+                        <button onclick="showSection('projetos')">Projetos</button>
+                        <button onclick="showSection('contato')">Contato</button>
+                    </div>
                 </div>
-            </div>
-            <div class="buttons"> <!-- Botões Interativos -->
-                <button onclick="showSection('curriculo')">Currículo</button>
-                <button onclick="showSection('projetos')">Projetos</button>
-                <button onclick="showSection('contato')">Contato</button>
             </div>
         </section>
 
@@ -59,35 +83,44 @@
                         <h4>Educação</h4>
                         <h5>Fatec Taubaté | Tecnologo 2024 - 2026</h5>
                         <p2>Cursando Análise e Desenvolvimento de Sistemas</p2>
-                        <p>Competências: C (Linguagem de Programação), C# (Programação em Microinformática) e C++ (Estrutura de Dados)</p>
-                        <p>Disciplinas complementares: Administração, Contabilidade, Economia e Finanças, Arquitetura de Computadores, Laboratório de Hardware, Cálculo e Estatística Aplicada</p>
+                        <p>Competências: C (Linguagem de Programação), C# (Programação em Microinformática) e C++
+                            (Estrutura de Dados)</p>
+                        <p>Disciplinas complementares: Administração, Contabilidade, Economia e Finanças, Arquitetura de
+                            Computadores, Laboratório de Hardware, Cálculo e Estatística Aplicada</p>
                     </div>
                     <div class="cursos-complementares">
                         <h4>Cursos/Certificados</h4>
                         <ul>
-                            <li>Treinamento Supervisionado de Dynamics 365 CRM e Power Platform pela Smart Consulting (176hrs) - Competências: Power Apps, Dataverse, PowerBI, Power Automate e C#</li>
-                            <li>Java Cloud Native pela DIO (90hrs) - Competências: Java POO, Spring Framework, API REST, SQL, Ambiente Cloud na Azure e Serviços Cloud de IA </li>
-                            <li>.NET C# pela DIO (105hrs) - Competências: C# .NET, C# POO, API .NET, SQL SERVER, GIT/GITHUB e Azure </li>
+                            <li>Treinamento Supervisionado de Dynamics 365 CRM e Power Platform pela Smart Consulting
+                                (176hrs) - Competências: Power Apps, Dataverse, PowerBI, Power Automate e C#</li>
+                            <li>Java Cloud Native pela DIO (90hrs) - Competências: Java POO, Spring Framework, API REST,
+                                SQL, Ambiente Cloud na Azure e Serviços Cloud de IA </li>
+                            <li>.NET C# pela DIO (105hrs) - Competências: C# .NET, C# POO, API .NET, SQL SERVER,
+                                GIT/GITHUB e Azure </li>
                             <li>Python Developer pela DIO (57hrs) - Competências: Python POO, Copilot Studio </li>
-                            <li>Administrador de Banco de Dados pelo IFRS Moodle (200hrs) - Competências: Linguagem SQL, Bancos de Dados: MySQL e PostgreSQL </li>
+                            <li>Administrador de Banco de Dados pelo IFRS Moodle (200hrs) - Competências: Linguagem SQL,
+                                Bancos de Dados: MySQL e PostgreSQL </li>
                             <li>Programação Web pelo IFRS Moodle (200hrs) Competências: HTML, CSS e JavaScript</li>
-                            <li>Python para Análise e Ciência de Dados - DSA (72hrs) Competências: NumPy, Pandas, Matplotlib, Seaborn, ML com Scikit-Learn e Deep Learn com TensorFlow</li>
-                            <li>Power BI para Business Intelligence e Data Science (72hrs) - Competências: Dashboards Interativos, Power Query, DAX, Linguagem M, KPIs, SQL Analytics, Analise de Séries Temporais</li>                               
+                            <li>Python para Análise e Ciência de Dados - DSA (72hrs) Competências: NumPy, Pandas,
+                                Matplotlib, Seaborn, ML com Scikit-Learn e Deep Learn com TensorFlow</li>
+                            <li>Power BI para Business Intelligence e Data Science (72hrs) - Competências: Dashboards
+                                Interativos, Power Query, DAX, Linguagem M, KPIs, SQL Analytics, Analise de Séries
+                                Temporais</li>
                         </ul>
                         <h3>Cursos de Aprimoramento</h3>
                         <ul>
                             <li>Gestão de Infraestrutura de TI pela FIAP (60hrs)</li>
                             <li>DevOps & Agile Culture pela FIAP (60hrs)</li>
                             <li>Business Inteligence pela FIAP (40hrs)</li>
-                            <li>Big Data & Analytics pela FIAP (60hrs)</li> 
+                            <li>Big Data & Analytics pela FIAP (60hrs)</li>
                             <li>User Experience UX pela FIAP (60hrs)</li>
-                            <li>Cloud Fundamentos pela FIAP (80hrs)</li> 
-                            <li>Design Gráfico pela FIAP (140hrs)</li>                         
+                            <li>Cloud Fundamentos pela FIAP (80hrs)</li>
+                            <li>Design Gráfico pela FIAP (140hrs)</li>
                             <li>Python pela FIAP (80hrs)</li>
                             <li>Java pela Fiap (60hrs)</li>
                             <li>Linux pela Fiap (40hrs)</li>
                         </ul>
-                    </div>                            
+                    </div>
         </section>
 
         <section id="projetos" class="hidden"> <!-- Botão Projetos -->
@@ -98,27 +131,30 @@
                 <p>Fiz um site de investimentos completamente do zero utilizando meus conhecimentos em HTML, CSS e
                     JavaScript</p>
                 <a href="https://hugoborrego.github.io/Site-de-Investimentos/" target="_blank"><img
-                    src="Fotos/riquezaonline.png" alt="RiquezaOnline">
+                        src="Fotos/riquezaonline.png" alt="RiquezaOnline">
                 </a>
 
                 <h4>Projeto de Automação em Python</h4>
                 <p>Fiz um Projeto em Python focado em automação, o qual organiza uma pasta em pastas especificas</p>
                 <a href="https://github.com/HugoBorrego/Projeto_Python.git" target="_blank"><img
-                    src="Fotos/projetopython.png">
+                        src="Fotos/projetopython.png">
                 </a>
 
                 <h4>Projeto Banco Digital</h4>
-                <p>Fiz um programa em java que possui programação orientada a objeto para aprimorar meus conhecimentos no assunto</p>
-                <a href="https://github.com/HugoBorrego/conta-bancaria-java" target="_blank"><img src="Fotos/JavaPOO.png"></a>
+                <p>Fiz um programa em java que possui programação orientada a objeto para aprimorar meus conhecimentos
+                    no assunto</p>
+                <a href="https://github.com/HugoBorrego/conta-bancaria-java" target="_blank"><img
+                        src="Fotos/JavaPOO.png"></a>
 
                 <h4>Projeto de Jogo 2D em Java</h4>
                 <p>Fiz um jogo em java que tem uma nave no espaço que atira e tem que desviar das naves inimigas</p>
                 <a href="https://github.com/HugoBorrego/Jogo_em_Java" target="_blank"><img src="Fotos/jogo2D.png"></a>
 
                 <h4>Projeto de Redução de Dimensionalidade de Imagens em Python</h4>
-                <p>Fiz um Projeto em Python que serve para converter imagens para dois tipos diferentes: níveis de cinza e binarizada (preto e branco).</p>
-                <a href="https://github.com/HugoBorrego/Reducao-de-Dimensionalidade-em-Imagens-para-Redes-Neurais" target="_blank"><img
-                    src="Fotos/ReduçãodeDimensionalidade.png">
+                <p>Fiz um Projeto em Python que serve para converter imagens para dois tipos diferentes: níveis de cinza
+                    e binarizada (preto e branco).</p>
+                <a href="https://github.com/HugoBorrego/Reducao-de-Dimensionalidade-em-Imagens-para-Redes-Neurais"
+                    target="_blank"><img src="Fotos/ReduçãodeDimensionalidade.png">
                 </a>
         </section>
 
@@ -140,21 +176,9 @@
     </main>
 
     <footer> <!-- Rodapé da Página -->
-
-        <div class="contact-info"> <!-- Contatos Fornecidos -->
-            <p><span>Email:</span> Menu Contato</p>
-        </div>
-        <div class="social-media"> <!-- Midia Social -->
-            <p><span>Me siga:</span></p>
-            <a href="https://www.linkedin.com/in/hugoaborrego/" target="_blank"><img src="Fotos/linkedin.png" alt="LinkedIn">Linkedin</a>
-            <a href="https://github.com/HugoBorrego" target="_blank"><img src="Fotos/github.png" alt="Github">Github</a>
-        </div>
-        <div class="policies"> <!-- Políticas -->
-            <a href="#">Política de Cookies</a>
-            <a href="#">Política de Privacidade</a>
-        </div>
-        <p>&copy; 2024-2025 Por Hugo Borrego</p> <!-- Criador -->
+        <p>&copy; 2025 Hugo Borrego</p> <!-- Criador -->
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
