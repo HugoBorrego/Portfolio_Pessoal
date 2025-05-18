@@ -114,7 +114,7 @@ footer p {
 }
 
 .introducao h1 {
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 2px 2px 4px rgba(201, 201, 201, 0.5);
 }
 
@@ -124,13 +124,29 @@ footer p {
     margin: 0 auto;
     padding: 2px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.introducao a {
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .linguagem {
     color: yellow;
 }
 
+#saibamais h1 {
+    font-size: 30px;
+}
+
+#saibamais p {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+}
 
 /* Botões */
 .buttons {
