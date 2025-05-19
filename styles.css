@@ -228,89 +228,147 @@ section.hidden {
     /* Estilo do Currículo */
     padding: 20px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #curriculo h2 {
     /* Estilo do Parágrafo Principal do Currículo */
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.educacao p {
-    font-family: 'Times New Roman', Times, serif;
-}
+.educacao {
+      background: #444444;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      max-width: 80%;
+      margin: 0 auto;
+      margin-top: 60px;
+    }
 
-.educacao p2 {
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-}
+    /* Cabeçalho: título "Formação Acadêmica" */
+    .educacao-header {
+      background: #3d3d3d;
+      border-radius: 10px;
+      color: #ffffff;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
 
-.content-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
+    .educacao-content {
+      background: #444444;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      padding: 20px;
+    }
 
-.left-column {
-    width: 100%;
-    text-align: left;
-}
+    .educacao-date {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #000000;
+      margin-right: 15px;
+      padding-right: 15px;
+    }
 
-.educacao,
+    .educacao-details {
+      font-size: 16px;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .educacao-details h5 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .educacao-details p {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .educacao-details p span {
+      font-weight: bold;
+    }
+    
+    /* Pequena responsividade para telas menores */
+    @media (max-width: 600px) {
+      .educacao-content {
+        grid-template-columns: 1fr;
+      }
+      
+      .educacao-date {
+        border-right: none;
+        margin-right: 0;
+        padding-right: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e0e0e0;
+      }
+    }
+
 .cursos-complementares {
-    margin-bottom: 20px;
-}
-
-.educacao h4,
-.cursos-complementares h4 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 20px;
-}
-
-.educacao h5 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.educacao p1 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 5px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.educacao p,
-.cursos-complementares ul {
-    font-size: 16px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.cursos-complementares ul {
-    list-style-type: disc;
-    margin-left: 0;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    width: 100%;
-    padding-left: 20px;
-}
-
-.cursos-complementares ul li {
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 1px;
-    display: block;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
+      margin-bottom: 40px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 50px;
+    }
+    
+    .cursos-complementares h3 {
+      margin: 20px 0 10px;
+      padding: 10px 20px;
+      background: #3d3d3d;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .card {
+      background: #444444;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 150px;
+    }
+    
+    .card h5 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    
+    .card p {
+      font-size: 14px;
+      margin-bottom: 5px;
+      line-height: 1.4;
+    }
+    
+    .card strong {
+      font-weight: bold;
+    }
+    
+    /* Pequena responsividade: em telas menores, 2 cards por linha */
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
 
 
 /* Projetos */
@@ -369,7 +427,7 @@ form {
 form input,
 form textarea {
     /* Estilo das Áreas Escritas do Contato */
-    width: 100%;
+    width: 94%;
     background-color: #666668;
     border: 0;
     outline: 0;
@@ -400,21 +458,3 @@ form .enviar input {
     font-weight: 700;
     cursor: pointer;
 }
-
-
-
-/* .social-media {
-    display: flex;
-    flex-direction: row;
-}
-
-.social-media a {
-    color: black;
-    font-family:'Times New Roman', Times, serif
-}
-
-.social-media p span {
-    font-size: 14px;
-    font-weight: bold;
-    margin-right: 5px;
-} */
