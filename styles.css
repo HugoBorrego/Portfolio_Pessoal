@@ -129,11 +129,16 @@ footer p {
 
 .introducao a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
+    color: yellow;
 }
 
 .linguagem {
-    color: yellow;
+    color: rgb(76, 36, 255);
+}
+
+.funcoes {
+    color: #01b907;
 }
 
 #saibamais h1 {
@@ -274,7 +279,7 @@ section.hidden {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-right: 1px solid #000000;
+      border-right: 1px solid #ffffff;
       margin-right: 15px;
       padding-right: 15px;
     }
@@ -328,7 +333,7 @@ section.hidden {
       padding: 10px 20px;
       background: #363636;
       border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(54, 53, 53, 0.1);
     }
     
     .grid {
@@ -385,6 +390,8 @@ section.hidden {
       display: grid;
       grid-template-columns: 1fr 3fr;
       padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
     }
 
     .curso-date {
@@ -394,7 +401,7 @@ section.hidden {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-right: 1px solid #000000;
+      border-right: 1px solid #ffffff;
       margin-right: 15px;
       padding-right: 15px;
     }
