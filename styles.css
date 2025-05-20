@@ -370,6 +370,58 @@ section.hidden {
       }
     }
 
+.curso-header {
+      background: #363636;
+      border-radius: 10px;
+      color: #ffffff;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .curso-content {
+      background: #444444;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      padding: 20px;
+    }
+
+    .curso-date {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #000000;
+      margin-right: 15px;
+      padding-right: 15px;
+    }
+
+    .curso-details {
+      font-size: 16px;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .curso-details h5 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    .curso-details p {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .curso-details p span {
+      font-weight: bold;
+    }
+
 
 /* Projetos */
 .projetos {
