@@ -4,516 +4,513 @@
 
 
 /* Corpo */
-body {   
-    /* Estilo do Corpo da Página */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    overflow-x: hidden;
-    background-color: #000000;
+body {
+  /* Estilo do Corpo da Página */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+  background-color: #000000;
 }
 
 main {
-    /* Estilo do Corpo Principal da Página */
-    padding: 35px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+  /* Estilo do Corpo Principal da Página */
+  padding: 35px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
+  body {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
+  body {
+    font-size: 14px;
+  }
 }
 
 
 /* Cabeçalho */
 header {
-    /* Estilo do Cabeçalho da Página */
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #000000;
-    color: white;
+  /* Estilo do Cabeçalho da Página */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  color: white;
 }
 
 .dot {
-    /* Estilo do Ponto ao Lado do Nome e Profissão */
-    height: 15px;
-    width: 15px;
-    background-color: rgb(111, 0, 255);
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 10px;
+  /* Estilo do Ponto ao Lado do Nome e Profissão */
+  height: 15px;
+  width: 15px;
+  background-color: rgb(111, 0, 255);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .name {
-    /* Estilo do Nome */
-    font-weight: bold;
-    font-size: 24px;
-    margin-right: 5px;
+  /* Estilo do Nome */
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 5px;
 }
 
 .title {
-    font-weight: bold;
-    font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 nav a {
-    /* Estilo do Menu */
-    margin: 0 8px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 16px;
+  /* Estilo do Menu */
+  margin: 0 8px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 16px;
 }
 
 
 /* Rodapé */
 footer {
-    /* Estilo do Rodapé */
-    background-color: #000000;
-    padding: 15px;
+  /* Estilo do Rodapé */
+  background-color: #000000;
+  padding: 15px;
 }
 
 footer p {
-    font-size: 14px;
-    color: #ffffff;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 
 /* Perfil Imagem*/
 .perfil {
-    /* Estilo do Perfil */
-    display: flex;
-    flex-wrap: wrap;
+  /* Estilo do Perfil */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .perfil .foto_de_perfil img {
-    /* Estilo do Formato da Imagem */
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    margin-top: 40px;
-    margin-left: 70px; 
+  /* Estilo do Formato da Imagem */
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 70px;
 }
 
 
 /* Perfil Introdução */
 .introducao {
-    color: #ffffff;
-    margin-left: 140px;
-    margin-top: 60px;
+  color: #ffffff;
+  margin-left: 140px;
+  margin-top: 60px;
 }
 
 .introducao h1 {
-    font-size: 40px;
-    text-shadow: 2px 2px 4px rgba(201, 201, 201, 0.5);
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(201, 201, 201, 0.5);
 }
 
 .introducao p {
-    /* Estilo da introdução/Sobre parágrafo normal */
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 2px;
-    font-weight: bold;
-    font-size: 20px;
+  /* Estilo da introdução/Sobre parágrafo normal */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .introducao a {
-    text-decoration: none;
-    font-size: 14px;
-    color: yellow;
+  text-decoration: none;
+  font-size: 14px;
+  color: yellow;
 }
 
 .linguagem {
-    color: rgb(76, 36, 255);
+  color: rgb(76, 36, 255);
 }
 
 .funcoes {
-    color: #01b907;
+  color: #01b907;
 }
 
 #saibamais h1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 #saibamais p {
-    width: 1000px;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    font-size: 18px;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
 }
 
 /* Botões */
 .buttons {
-    /* Estilo dos Botões Interativos */
-    display: flex;
-    justify-content: center;
+  /* Estilo dos Botões Interativos */
+  display: flex;
+  justify-content: center;
 }
 
 .buttons button {
-    /* Estilo do Formato dos Botões Interativos */
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-    padding: 0;
-    border-radius: 50%;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* Estilo do Formato dos Botões Interativos */
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttons button:nth-child(1) {
-    /* Estilo do Botão Currículo */
-    background-color: #01b907;
-    color: black;
+  /* Estilo do Botão Currículo */
+  background-color: #01b907;
+  color: black;
 }
 
 .buttons button:nth-child(2) {
-    /* Estilo do Botão Projetos */
-    background-color: #0077d8;
-    color: black;
+  /* Estilo do Botão Projetos */
+  background-color: #0077d8;
+  color: black;
 }
 
 .buttons button:nth-child(3) {
-    /* Estilo do Botão Contato */
-    background-color: #d40e00;
-    color: black;
+  /* Estilo do Botão Contato */
+  background-color: #d40e00;
+  color: black;
 }
 
 /* Contatos */
 .contatos img {
-    width: auto; 
-    height: 80px;
-    padding: 5px;
+  width: auto;
+  height: 80px;
+  padding: 5px;
 }
 
 /* Carrosel dinâmico */
 .carrossel {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+
 }
 
 .carrossel-track {
-    display: flex;
-    gap: 15px;
-    animation: marquee 30s linear infinite;
-    justify-content: center;
+  display: flex;
+  gap: 15px;
+  animation: marquee 30s linear infinite;
+  justify-content: center;
 }
 
 .carrossel-track img {
-    width: auto;
-    height: 40px;
+  width: auto;
+  height: 40px;
 }
 
 
 
 /* Estilo da Seção */
 section.hidden {
-    display: block;
+  display: block;
 }
 
 
 
 /* Curriculo */
 #curriculo {
-    /* Estilo do Currículo */
-    padding: 20px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+  /* Estilo do Currículo */
+  padding: 20px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #curriculo h2 {
-    /* Estilo do Parágrafo Principal do Currículo */
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
+  /* Estilo do Parágrafo Principal do Currículo */
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .educacao {
-      background: #444444;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      max-width: 80%;
-      margin: 0 auto;
-      margin-top: 60px;
-    }
+  background: #444444;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
 
-    /* Cabeçalho: título "Formação Acadêmica" */
-    .educacao-header {
-      background: #363636;
-      border-radius: 10px;
-      color: #ffffff;
-      padding: 15px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
+/* Cabeçalho: título "Formação Acadêmica" */
+.educacao-header {
+  background: #363636;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
 
-    .educacao-content {
-      background: #444444;
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      padding: 20px;
-    }
+.educacao-content {
+  background: #444444;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 20px;
+}
 
-    .educacao-date {
-      font-size: 18px;
-      font-weight: bold;
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-right: 1px solid #ffffff;
-      margin-right: 15px;
-      padding-right: 15px;
-    }
+.educacao-date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ffffff;
+  margin-right: 15px;
+  padding-right: 15px;
+}
 
-    .educacao-details {
-      font-size: 16px;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+.educacao-details {
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-    .educacao-details h5 {
-      font-size: 20px;
-      margin-bottom: 8px;
-      color: #ffffff;
-    }
+.educacao-details h5 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
 
-    .educacao-details p {
-      margin-bottom: 8px;
-      line-height: 1.5;
-    }
+.educacao-details p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
 
-    .educacao-details p span {
-      font-weight: bold;
-    }
-    
-    /* Pequena responsividade para telas menores */
-    @media (max-width: 600px) {
-      .educacao-content {
-        grid-template-columns: 1fr;
-      }
-      
-      .educacao-date {
-        border-right: none;
-        margin-right: 0;
-        padding-right: 0;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #e0e0e0;
-      }
-    }
+.educacao-details p span {
+  font-weight: bold;
+}
+
+/* Pequena responsividade para telas menores */
+@media (max-width: 600px) {
+  .educacao-content {
+    grid-template-columns: 1fr;
+  }
+
+  .educacao-date {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
 
 .cursos-complementares {
-      margin-bottom: 40px;
-      font-family: 'Times New Roman', Times, serif;
-      margin-top: 50px;
-    }
-    
-    .cursos-complementares h3 {
-      margin: 20px 0 20px;
-      padding: 10px 20px;
-      background: #363636;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(54, 53, 53, 0.1);
-    }
-    
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-      margin-bottom: 20px;
-    }
-    
-    .card {
-      background: #444444;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-      min-height: 150px;
-    }
-    
-    .card h5 {
-      font-size: 18px;
-      margin-bottom: 5px;
-    }
-    
-    .card p {
-      font-size: 14px;
-      margin-bottom: 5px;
-      line-height: 1.4;
-    }
-    
-    .card strong {
-      font-weight: bold;
-    }
-    
-    /* Pequena responsividade: em telas menores, 2 cards por linha */
-    @media (max-width: 768px) {
-      .grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+
+.cursos-complementares h3 {
+  margin: 20px 0 20px;
+  padding: 10px 20px;
+  background: #363636;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(54, 53, 53, 0.1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #444444;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.card h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.card strong {
+  font-weight: bold;
+}
+
+/* Pequena responsividade: em telas menores, 2 cards por linha */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 .curso-header {
-      background: #363636;
-      border-radius: 10px;
-      color: #ffffff;
-      padding: 15px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
+  background: #363636;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
 
-    .curso-content {
-      background: #444444;
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
-    }
+.curso-content {
+  background: #444444;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
 
-    .curso-date {
-      font-size: 18px;
-      font-weight: bold;
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-right: 1px solid #ffffff;
-      margin-right: 15px;
-      padding-right: 15px;
-    }
+.curso-date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ffffff;
+  margin-right: 15px;
+  padding-right: 15px;
+}
 
-    .curso-details {
-      font-size: 16px;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+.curso-details {
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-    .curso-details h5 {
-      font-size: 20px;
-      margin-bottom: 8px;
-      color: #ffffff;
-    }
+.curso-details h5 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
 
-    .curso-details p {
-      margin-bottom: 8px;
-      line-height: 1.5;
-    }
+.curso-details p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
 
-    .curso-details p span {
-      font-weight: bold;
-    }
+.curso-details p span {
+  font-weight: bold;
+}
 
 
 /* Projetos */
 .projetos {
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
 
-.projetos h4 {
-    /* Estilo do Parágrafo com os Nomes dos Projetos */
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 20px;
+.projeto {
+    width: 30%; 
+    margin-bottom: 20px; 
+    text-align: center; 
 }
 
-.projetos p {
-    /* Estilo do Parágrafo com Explicação dos Projetos */
-    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+.projetos h2 {
+    width: 100%;
+    text-align: center;
 }
 
-.projetos img {
-    /* Estilo do formato das Imagens dos Projetos */
-    width: 300px;
-    height: 300px;
+.projeto img {
+    width: auto;
+    height: 200px;
     border-radius: 5%;
     overflow: hidden;
-    margin-right: 20px;
 }
+
 
 
 
 /* Formulário */
 .hidden {
-    color: white;
+  color: white;
 }
 
 section.contatos {
-    /* Estilo da Seção Contatos */
-    padding: 80px;
+  /* Estilo da Seção Contatos */
+  padding: 80px;
 }
 
 form {
-    /* Estilo dos Formulários do Contato */
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
+  /* Estilo dos Formulários do Contato */
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
 }
 
 form input,
 form textarea {
-    /* Estilo das Áreas Escritas do Contato */
-    width: 94%;
-    background-color: #666668;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 10px;
-    color: #000000;
-    font-size: 18px;
-    font-weight: bold;
+  /* Estilo das Áreas Escritas do Contato */
+  width: 94%;
+  background-color: #666668;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
 
 }
 
 form textarea {
-    resize: none;
-    max-height: 200px;
-    font-weight: bold;
-    font-size: 18px;
+  resize: none;
+  max-height: 200px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 form .enviar {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 form .enviar input {
-    width: 120px;
-    background-color: #666668;
-    color: #000;
-    font-weight: 700;
-    cursor: pointer;
+  width: 120px;
+  background-color: #666668;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
 }
