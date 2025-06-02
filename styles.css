@@ -129,12 +129,12 @@ footer p {
 
 .introducao a {
   text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 14px;
-  color: yellow;
 }
 
 .linguagem {
-  color: rgb(76, 36, 255);
+  color: yellow;
 }
 
 .funcoes {
@@ -150,7 +150,7 @@ footer p {
   text-align: center;
   margin: auto;
   padding: 10px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 /* Botões */
