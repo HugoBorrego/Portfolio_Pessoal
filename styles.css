@@ -6,7 +6,7 @@
 /* Corpo */
 body {
   /* Estilo do Corpo da Página */
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -24,12 +24,6 @@ main {
 @media screen and (max-width: 768px) {
   body {
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
   }
 }
 
@@ -120,11 +114,12 @@ footer p {
 
 .introducao p {
   /* Estilo da introdução/Sobre parágrafo normal */
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 2px;
   font-weight: bold;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .introducao a {
@@ -195,8 +190,9 @@ footer p {
 /* Contatos */
 .contatos img {
   width: auto;
-  height: 80px;
+  height: 50px;
   padding: 5px;
+  margin-top: 10px;
 }
 
 /* Carrosel dinâmico */
@@ -204,7 +200,6 @@ footer p {
   overflow: hidden;
   width: 100%;
   position: relative;
-
 }
 
 .carrossel-track {
@@ -432,28 +427,28 @@ section.hidden {
 
 /* Projetos */
 .projetos {
-    color: #ffffff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .projeto {
-    width: 30%; 
-    margin-bottom: 20px; 
-    text-align: center; 
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .projetos h2 {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .projeto img {
-    width: auto;
-    height: 200px;
-    border-radius: 5%;
-    overflow: hidden;
+  width: auto;
+  height: 200px;
+  border-radius: 5%;
+  overflow: hidden;
 }
 
 
@@ -477,7 +472,7 @@ form {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 form input,
