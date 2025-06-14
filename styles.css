@@ -451,6 +451,9 @@ section.hidden {
   overflow: hidden;
 }
 
+.projeto h4 {
+  text-shadow: 1px 1px 2px white;
+}
 
 
 
