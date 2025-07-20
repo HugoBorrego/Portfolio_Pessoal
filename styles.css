@@ -363,11 +363,15 @@ section.hidden {
   }
 }
 
+.curso {
+  padding: 25px;
+}
+
 .curso-header {
   background: #363636;
   border-radius: 10px;
   color: #ffffff;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
