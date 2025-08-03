@@ -65,16 +65,19 @@ nav a {
 
 /* Rodapé */
 footer {
-  /* Estilo do Rodapé */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
   background-color: #000000;
-  padding: 15px;
+  color: white;
+  text-align: center;
 }
 
 footer p {
   font-size: 14px;
   color: #ffffff;
 }
-
 
 /* Perfil Imagem*/
 .perfil {
@@ -296,7 +299,7 @@ section.hidden {
 }
 
 /* Pequena responsividade para telas menores */
-@media (max-width: 600px) {
+@media (max-width: 728px) {
   .educacao-content {
     grid-template-columns: 1fr;
   }
@@ -461,7 +464,7 @@ section.hidden {
 
 section.contatos {
   /* Estilo da Seção Contatos */
-  padding: 80px;
+  padding: 60px;
 }
 
 form {
@@ -472,7 +475,6 @@ form {
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  margin-top: 10px;
 }
 
 form input,
@@ -487,7 +489,6 @@ form textarea {
   color: #000000;
   font-size: 18px;
   font-weight: bold;
-
 }
 
 form textarea {
@@ -508,4 +509,150 @@ form .enviar input {
   color: #000;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* Layout geral responsivo */
+@media (max-width: 1024px) {
+  .perfil {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .perfil .foto_de_perfil img {
+    margin-left: 0;
+  }
+
+  .introducao {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .introducao p {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons button {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+  }
+
+  #saibamais p {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .projeto {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  .introducao h1 {
+    font-size: 32px;
+  }
+
+  .introducao p {
+    font-size: 16px;
+  }
+
+  .projeto {
+    width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .curso-content,
+  .educacao-content {
+    grid-template-columns: 1fr;
+  }
+
+  .curso-date,
+  .educacao-date {
+    border-right: none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  form .enviar input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 20px;
+  }
+
+  .introducao h1 {
+    font-size: 28px;
+  }
+
+  .introducao p {
+    font-size: 14px;
+  }
+
+  .buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  .card h5 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .curso-header,
+  .educacao-header {
+    font-size: 20px;
+  }
+
+  .curso-details h5,
+  .educacao-details h5 {
+    font-size: 18px;
+  }
+
+  .curso-details p,
+  .educacao-details p {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
 }

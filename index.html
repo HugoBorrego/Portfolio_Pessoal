@@ -29,7 +29,7 @@
 
     <main> <!-- Corpo principal da Página -->
 
-        <section id="home"> <!-- Seção de apresentação -->
+        <section id="home"  class="hidden"> <!-- Seção de apresentação -->
             <div class="perfil"> <!-- Perfil do criador -->
                 <div class="foto_de_perfil"> <!-- Foto principal -->
                     <img src="assets/images/perfil.jpeg">
@@ -49,10 +49,9 @@
                         </div>
                     </div>
                     <p>Olá! Me chamo Hugo. Sou desenvolvedor <span class="funcoes">Full-Stack</span> com especialidade
-                        em <span class="linguagem">Java</span>, <span class="linguagem">Python</span>, <span
-                            class="linguagem"></span>JavaScript, C#, Node.js, HTML e CSS, linguagem <span
-                            class="linguagem">SQL</span>. Também trabalho com <span class="funcoes">Análise e Ciência de
-                            Dados</span>, utilizo Python e <span class="linguagem">PowerBI</span>. <a href="#"
+                        em Java, Python, <span
+                            class="linguagem"></span>JavaScript, C#, Node.js, HTML e CSS, linguagem SQL. Também trabalho com <span class="funcoes">Análise e Ciência de
+                            Dados</span> utilizando Python e PowerBI</span>. <a href="#"
                             onclick="showSection('saibamais')">SAIBA MAIS</a>
                     </p>
                     <div class="contatos">
@@ -79,9 +78,8 @@
             </p>
             <p>
                 Sou comunicativo, trabalhador e proativo. Tenho facilidade em trabalhar em equipe e geralmente adoto
-                posturas de liderança caso necessário. Me interesso em <span class="linguagem">desenvolvimento de
-                    software</span>, <span class="linguagem">ciência de dados</span> e <span
-                    class="linguagem">inteligência artificial</span>. Investindo regularmente em cursos e treinamentos
+                posturas de liderança caso necessário. Me interesso em desenvolvimento de
+                    software, ciência de dados e inteligência artificial. Investindo regularmente em cursos e treinamentos
                 para aprimorar minhas habilidades. Possuo paixão por tecnologia e constante busca por novos
                 conhecimentos.
             </p>
@@ -113,6 +111,24 @@
                     </div>
                 </div>
             </div>
+            <div class="curso">
+                    <div class="curso-header">
+                        Cursos
+                    </div>
+                    <div class="curso-content">
+                        <div class="curso-date">
+                            <p>Abril 2025 - Novembro - 2025</p>
+                        </div>
+                        <div class="curso-details">
+                            <h5>+PraTi | CodificaEdu</h5>
+                            <p>Dev. Full Stack Jr. (260hrs)</p>
+                            <p><span>Competências: </span>HTML, CSS, JS, React.js, Node.js, Java, API's Rest, MySQL e
+                                PostgreSQL, Docker, DevOps e Inteligencia Artificial com Python </p>
+                            <p><span>Disciplinas complementares: </span>Scrum e Kanban, Desenvolvimento de soft skills,
+                                Git e GitHub </p>
+                        </div>
+                    </div>
+                </div>
             <div class="cursos-complementares">
                 <h3>Certificados</h3>
                 <div class="grid">
@@ -159,27 +175,6 @@
                         <p><strong>DSA</strong> (72hrs)</p>
                         <p>Competências: Dashboards, Power Query, DAX, Linguagem M, KPIs, SQL Analytics</p>
                     </div>
-                </div>
-                <div class="curso">
-                    <div class="curso-header">
-                        Cursos
-                    </div>
-                    <div class="curso-content">
-                        <div class="curso-date">
-                            <p>Abril 2025 - Novembro - 2025</p>
-                        </div>
-                        <div class="curso-details">
-                            <h5>+PraTi | CodificaEdu</h5>
-                            <p>Dev. Full Stack Jr. (260hrs)</p>
-                            <p><span>Competências: </span>HTML, CSS, JS, React.js, Node.js, Java, API's Rest, MySQL e
-                                PostgreSQL, Docker, DevOps e Inteligencia Artificial com Python </p>
-                            <p><span>Disciplinas complementares: </span>Scrum e Kanban, Desenvolvimento de soft skills,
-                                Git e GitHub </p>
-                        </div>
-                    </div>
-                </div>
-                <h3>Aprimoramento</h3>
-                <div class="grid">
                     <div class="card">
                         <h5>Versionamento de Código</h5>
                         <p><strong>Moodle PUCRS</strong> (24hrs)</p>
@@ -292,13 +287,6 @@
             <h2>Contato</h2>
             <div class="interface">
                 <h3>Me mande uma mensagem!</h3>
-
-                <div class="contatos">
-                    <a href="https://www.linkedin.com/in/hugoaborrego/" target="_blank"><img
-                            src="assets//Linkedin-Logo.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/HugoBorrego" target="_blank"><img src="assets//GitHub-Logo.png"
-                            alt="Github"></a>
-                </div>
 
                 <form action="https://api.staticforms.xyz/submit" method="post" class="card">
                     <input type="hidden" name="accessKey" value="a0b7f734-e5ca-4051-bd0e-0a1b69e905de">
